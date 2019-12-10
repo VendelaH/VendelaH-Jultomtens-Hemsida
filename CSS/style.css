@@ -1,0 +1,104 @@
+header {
+  border: 15px solid silver;
+  background-image: url("../img/julgranskula.jpeg");
+  background-color: #cccccc;
+  color: white;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  display: inline;
+}
+
+li a {
+  text-decoration: none;
+  color: rgba(190, 2, 2, 0.92);
+  background-color: white;
+  border: solid 0.1em #02800f;
+  padding: 0.2em;
+}
+
+li a:hover {
+  background-color: #02800f;
+  color: rgba(190, 2, 2, 0.92);
+  border: solid 0.1em white;
+}
+
+nav {
+  text-align: center;
+  border: 15px solid silver;
+  background-color: rgba(190, 2, 2, 0.92);
+  color: white;
+}
+
+#R2 {
+  text-align: center;
+  border: 15px solid silver;
+  background-color: rgba(190, 2, 2, 0.92);
+  color: white;
+}
+
+aside {
+  text-align: left;
+  border: 10px solid White;
+  background-color: rgba(190, 2, 2, 0.92);
+  color: white;
+}
+
+P {
+  text-align: center;
+  font-size: 5rem;
+  margin-top: 20px;
+  background-color: #02800f;
+  color: white;
+}
+
+#R2 {
+  text-align: center;
+  align-self: center;
+  font-size: 2rem;
+  border: 0px;
+  background-color: none;
+  color: white;
+}
+
+#demo {
+  text-align: center;
+  display: inline;
+  border: 0px;
+  background-color: rgba(190, 2, 2, 0.92);
+  color: white;
+}
+
+article {
+  text-align: center;
+  align-self: baseline;
+  border: 0px solid white;
+  background-color: #02800f;
+  color: white;
+}
+
+#dema {
+  border: 15px solid #02800f;
+  background-color: #02800f;
+  color: white;
+  text-align: center;
+  align-self: flex-start;
+}
+
+section {
+  border: 0px;
+  background-color: white;
+  color: white;
+}
+
+footer {
+  border: 15px solid silver;
+  background-color: #02800f;
+  color: white;
+}

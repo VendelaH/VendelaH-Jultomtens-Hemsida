@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <title>Hjälp Jultomten</title>
+  <link rel="stylesheet" href="../css/grid.css">
+  <link rel="stylesheet" href="../css/Style.css">
+
+</head>
+
+<body>
+
+  <div class="container">
+    <header id="toppen">
+      <h1> HO Ho ho! </h1>
+    </header>
+    <ul class="menu">
+      <li> <a class="button1" href="Julsidan1index.html">Hem</a></li>
+
+      <li> <a class="button1" href="Nedräkningindex.html">Nedräkning</a></li>
+
+      <li> <a class="button1" href="Tomtefaktaindex.html">Tomtefakta</a></li>
+
+      <li> <a class="button1" href="MinÖnskelistaindex.html">Min Önskelista</a></li>
+
+      <li> <a class="button1" href="MinFamiljindex.html">Min Familj</a></li>
+    </ul>
+    <nav>
+
+      <h1 id="R2">Min Önskelista</h1>
+
+    </nav>
+
+    <aside>
+      <div contenteditable="true">
+        Skriv ner din önskelista här:
+        <br>
+        <br>
+        1.
+        <br>
+        <br>
+        2.
+        <br>
+        <br>
+        3.
+        <br>
+        <br>
+        <br>
+
+      </div>
+
+      <a href="https://www.y8.com/games/slope" title="Länk till slope" target=_blank>slope</a>
+
+    </aside>
+    <article>
+      <p id="dema"></p>
+
+    </article>
+
+    <script>
+      // Set the date we're counting down to
+      var countDownDate = new Date("dec 24, 2019 00:00:").getTime();
+
+      // Update the count down every 1 second
+      var x = setInterval(function() {
+
+        // Get today's date and time
+        var now = new Date().getTime();
+
+        // Find the distance between now and the count down date
+        var distance = countDownDate - now;
+
+        // Time calculations for days, hours, minutes and seconds
+        var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+        var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+        var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+        var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+        // Output the result in an element with id="demo"
+        document.getElementById("dema").innerHTML = days + " dagar kvar till julafton";
+
+        // If the count down is over, write some text
+        if (distance < 0) {
+          clearInterval(x);
+          document.getElementById("dema").innerHTML = "EXPIRED";
+        }
+      }, 1000);
+    </script>
+    <section>
+      <img src="../img/LoggaTomtarna.png" alt="Logga Småtomtar" title="Logga Småtomtar" width="300" height="300">
+    </section>
+    <footer>Bye bye my eye
+      <br>
+      <br>
+      <a href="#toppen">Till toppen</a>
+    </footer>
+
+  </div>
+</body>
+
+</html>
