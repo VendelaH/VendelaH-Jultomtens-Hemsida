@@ -1,7 +1,0 @@
-.rowr {color: seagreen;}
-#{color: teal;}
-#{color: blue;}
-#{color: darkblue;}
-p{color: seagreen;}
-
-body{background-color: darkgrey;}
