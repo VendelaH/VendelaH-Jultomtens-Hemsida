@@ -106,9 +106,12 @@ footer {
 }
 
 @media screen and (max-width: 600px) {
-  .left {
-    grid-column: 1/-1;
-    text-align: center;
+
+
+
+
+
+
   }
 
   section {
