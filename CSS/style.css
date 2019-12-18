@@ -104,6 +104,6 @@ footer {
 }
 
 #toppen a:hover{
-  color: rgba(190, 2, 2, 0.92);
-background-color: #02800f;
+  color: orange;
+background-color: blue;
 }
