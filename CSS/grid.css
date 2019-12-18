@@ -78,7 +78,7 @@ article {
   display: inherit;
   grid-template-columns: inherit;
   grid-gap: inherit;
-  grid-column: 1/1;
+  grid-column: 0/1;
   grid-row: 2/5;
   align-self: center stretch;
   text-align: center;
