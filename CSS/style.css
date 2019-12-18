@@ -24,9 +24,9 @@ li a {
 }
 
 li a:hover {
-  background-color: #02800f;
+  background-color: white;
   color: rgba(190, 2, 2, 0.92);
-  border: solid 0.1em white;
+  border: solid 0.1em #02800f;
 }
 
 nav {
