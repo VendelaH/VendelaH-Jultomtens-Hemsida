@@ -1,9 +1,7 @@
 .container {
   display: grid;
-  grid-template-columns: repeat(6, 1fr);
-  grid-auto-rows: 150px;
-  grid-gap: 3px;
-  grid-auto-rows: minmax(100px, auto);
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: repeat(auto-fit, minmax(50px, auto));
 }
 
 header {
@@ -78,7 +76,7 @@ article {
   display: inherit;
   grid-template-columns: inherit;
   grid-gap: inherit;
-  grid-column: 0/1;
+  grid-column: 1/2;
   grid-row: 2/5;
   align-self: center stretch;
   text-align: center;
@@ -109,7 +107,6 @@ footer {
   .left {
     grid-column: 1/-1;
     text-align: center;
-
   }
 
   section {
