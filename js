@@ -25,4 +25,5 @@
       document.getElementById("dema").innerHTML = "God jul!";
     }
   }, 1000);
+}
 </script>
