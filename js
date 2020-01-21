@@ -1,6 +1,6 @@
-<script>
 
-{ v var countDownDate = new Date("feb 25, 2020 00:00:").getTime();
+
+ var countDownDate = new Date("feb 25, 2020 00:00:").getTime();
 
 
   var x = setInterval(function() {
@@ -25,5 +25,3 @@
       document.getElementById("dema").innerHTML = "God jul!";
     }
   }, 1000);
-}
-</script>
