@@ -59,6 +59,13 @@ aside {
   text-align: left;
 }
 
+figure{
+  grid-column: 2/3;
+  grid-row: 3/4;
+  align-self: center stretch;
+  text-align: center;
+}
+
 article {
   display: inherit;
   grid-template-columns: inherit;
