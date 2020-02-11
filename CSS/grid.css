@@ -18,9 +18,10 @@ ul {
   align-self: flex-end;
 }
 
-.button1 {
-  border-radius: 10px;
+li a {
+  border-radius: 9px;
 }
+
 
 nav {
   display: inherit;
