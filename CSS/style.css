@@ -1,11 +1,14 @@
+
+
 header {
   border: 5px solid white;
-  background-image: url("../img/tree3.jpg");
+  background-image: url("../img/blomma.jpg");
   background-color: #cccccc;
   color: white;
   background-size: cover;
   text-shadow: 3px 2px lightcoral;
 }
+
 
 ul {
   list-style-type: none;
